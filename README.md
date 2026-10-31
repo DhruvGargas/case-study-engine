@@ -24,6 +24,8 @@ python run_engine.py gate --project projects/drishti
 python run_engine.py publish --project projects/drishti
 ```
 
+**Web demo (localhost):** `python webapp.py`, then open http://localhost:8765. Run the chain, browse the six outputs, type a claim to see the fact-checker accept or refuse it, and click through the approval gate.
+
 `run` stops at `AWAITING_INTERNAL_REVIEW`. `gate` reads the signed decisions in `approvals/` (`internal_review.json`, then `client_decision.json`). `publish` refuses unless the gate says `RELEASED`. Add `--llm` to `run` (with `pip install anthropic` and `ANTHROPIC_API_KEY` set) to have Claude (`claude-opus-5-5`) do the extraction and drafting; the verifier, calculator and gate stay deterministic.
 
 ## The six outputs (in `projects/drishti/outputs/`)
