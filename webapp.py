@@ -180,7 +180,7 @@ PAGE = r"""<!doctype html>
 <title>Case Study Engine</title>
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--ink:#1f2933;--muted:#6b7280;--line:#e5e7eb;--accent:#1d6fb8;--ok:#15803d;--okbg:#ecfdf3;--bad:#b91c1c;--badbg:#fef2f2;--warn:#b45309;--warnbg:#fffbeb}
-@media (prefers-color-scheme:dark){:root{--bg:#0f141a;--card:#171e26;--ink:#e5e7eb;--muted:#9ca3af;--line:#2a3441;--accent:#60a5fa;--ok:#4ade80;--okbg:#0f2a1a;--bad:#f87171;--badbg:#2a1414;--warn:#fbbf24;--warnbg:#2a2210}}
+:root{color-scheme:light}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
 header{padding:20px 24px;border-bottom:1px solid var(--line);background:var(--card);display:flex;gap:16px;align-items:center;flex-wrap:wrap}
 header h1{font-size:20px;margin:0}header p{margin:0;color:var(--muted);font-size:13px}

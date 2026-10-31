@@ -209,7 +209,6 @@ def roi_calculator(ctx, spec, path):
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Gate payback calculator</title><style>
 :root{{--bg:#fff;--ink:#1f2933;--muted:#6b7280;--accent:#1d6fb8;--card:#f3f7fb}}
-@media (prefers-color-scheme:dark){{:root{{--bg:#111827;--ink:#e5e7eb;--muted:#9ca3af;--accent:#60a5fa;--card:#1f2937}}}}
 body{{background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif;margin:0;padding:24px 16px}}
 main{{max-width:680px;margin:auto}}h1{{font-size:24px;margin:0 0 8px}}p{{color:var(--muted)}}
 label{{display:block;margin:14px 0;font-weight:600}}input{{display:block;width:100%;box-sizing:border-box;padding:10px;font:inherit;margin-top:4px;border:1px solid var(--muted);border-radius:6px;background:var(--bg);color:var(--ink)}}

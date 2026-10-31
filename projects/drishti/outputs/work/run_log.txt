@@ -1,10 +1,10 @@
-[11:38:57] librarian: indexed 42 files; 2 images carry metadata
-[11:38:57] extractor: loaded 157 cached evidence items from evidence.json
-[11:38:58] extractor: 157 items traced to a file and line; 0 refused
-[11:38:58] historian: story spine: 78 dated lines across 10 months
-[11:38:58] analyst: computed 54 metrics; 8 results written with working
-[11:38:59] exposure: 25 identifiers and 7 pattern types found; 9 combination risks; 3 media files reviewed
-[11:38:59] writer: loaded 4 reviewed drafts
-[11:38:59] factcheck: 126 lines kept; 0 refused
-[11:39:00] media: built 5 assets: cohort_chart, phase_chart, architecture, one_slide, roi_calculator
-[11:39:00] approval: approval pack frozen (sha256 e870ff9f1a4c...); reply-by 2026-11-18; STOPPED for human review
+[11:47:08] librarian: indexed 42 files; 2 images carry metadata
+[11:47:08] extractor: loaded 157 cached evidence items from evidence.json
+[11:47:09] extractor: 157 items traced to a file and line; 0 refused
+[11:47:09] historian: story spine: 78 dated lines across 10 months
+[11:47:09] analyst: computed 54 metrics; 8 results written with working
+[11:47:09] exposure: 25 identifiers and 7 pattern types found; 9 combination risks; 3 media files reviewed
+[11:47:09] writer: loaded 4 reviewed drafts
+[11:47:09] factcheck: 126 lines kept; 0 refused
+[11:47:13] media: built 5 assets: cohort_chart, phase_chart, architecture, one_slide, roi_calculator
+[11:47:14] approval: approval pack frozen (sha256 0e1dd99aa07f...); reply-by 2026-11-18; STOPPED for human review
