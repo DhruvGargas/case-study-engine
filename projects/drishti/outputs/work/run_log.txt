@@ -1,0 +1,11 @@
+[11:28:43] engine: project Drishti (AI safety cameras + gate analytics, Jan-Sep 2026) | library Project_Drishti_Library | mode offline
+[11:28:43] librarian: indexed 42 files; 2 images carry metadata
+[11:28:43] extractor: loaded 157 cached evidence items from evidence.json
+[11:28:44] extractor: 157 items traced to a file and line; 0 refused
+[11:28:44] historian: story spine: 78 dated lines across 10 months
+[11:28:44] analyst: computed 54 metrics; 8 results written with working
+[11:28:44] exposure: 25 identifiers and 7 pattern types found; 9 combination risks; 3 media files reviewed
+[11:28:44] writer: loaded 4 reviewed drafts
+[11:28:44] factcheck: 126 lines kept; 0 refused
+[11:28:48] media: built 5 assets: cohort_chart, phase_chart, architecture, one_slide, roi_calculator
+[11:28:48] approval: approval pack frozen (sha256 fc6a71b511bd...); reply-by 2026-11-18; STOPPED for human review
